@@ -1,0 +1,29 @@
+.bienvenidos{
+    font-size: 4em;
+    background-color: azure;
+    height: 1em;
+    width: 5.3em;
+}
+
+.autor{
+    font-size: 1.5em;
+}
+
+.content{
+    position:relative;
+    display:grid;
+    align-items:normal;
+    justify-content:left;
+    width: 100%;
+    gap: 20%;
+
+}
+
+button{
+    width: 5em;
+    position: relative;
+    height: 1.5em;
+    border:1px ridge #212121;
+    background-color:rgb(199, 243, 228);
+    font-weight:bold;
+}
