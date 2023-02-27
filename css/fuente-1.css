@@ -1,11 +1,11 @@
 h2{
     font-size: 3em;/*tamaño de la letra*/
     font-weight: 900; /*grosor de la letra*/
-    
+    font-family: "cinzel";/*fuente de la letra*/
 }
 
 .cinzel{
-    font-family:'Cinzel',sans-serif;
+    font-family:'Cinzel';
 }
 /* cinzel-regular - latin */
 @font-face {

@@ -1,3 +1,11 @@
+h2{
+    font-size: 3em;/*tamaño de la letra*/
+    font-weight: 900; /*grosor de la letra*/
+    font-style: "waltograph"; /*estilos de la letra*/
+
+}
 .waltograph{
-    font-family: waltograph;
+    font-family: "waltograph",sans-serif;
+
+
 }
