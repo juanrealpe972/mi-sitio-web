@@ -9,13 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10em;
 }  
 
-.bebas-neve{
+.bebas-newe{
     font-family:'Bebas Neue',sans-serif;
     text-align: center;
-    color: red
+    color: red;
+    font-size: 10em;
 }
 /* bebas-neue-regular - latin */
 @font-face {
