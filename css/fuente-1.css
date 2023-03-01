@@ -1,18 +1,27 @@
-h2{
-    font-size: 3em;/*tamaño de la letra*/
-    font-weight: 900; /*grosor de la letra*/
-    font-family: "cinzel";/*fuente de la letra*/
+*{
+    margin: 0%;
+    border: 0;
 }
-
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(black, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cinzel{
     font-family:'Cinzel';
+    text-align: center;
+    color: white;
+    font-size: 10em;
 }
 /* cinzel-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     src: url('../fonts/cinzel-v19-latin-regular.eot'); /* IE9 Compat Modes */
     src: url('../fonts/cinzel-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/cinzel-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
