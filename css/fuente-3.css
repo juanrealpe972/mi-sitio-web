@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    background-color: rgb(3,13,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.waltograph{
+    font-family: "waltograph";
+    font-size: 10em;
+    color: whitesmoke;
+}
+/* bebas-waltograph - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'waltograph';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/waltograph42.otf'),
+         url('../fonts/waltographUI.ttf');
+
+  }
