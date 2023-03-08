@@ -16,12 +16,7 @@ span{
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a{
-    align-items: center;
-    padding: 3px;;
-    border: 1px;
-    background-color: white;
-}
+
 .box-1{
     background-color:black;
 }
@@ -48,4 +43,10 @@ a{
 }
 .box-9{
 background-color:#FF00E7 ;
+}
+a{
+    align-items: center;
+    padding: 3px;;
+    border: 1px;
+    background-color: white;
 }

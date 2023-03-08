@@ -1,11 +1,15 @@
+*{
+    background-color:aqua ;/* color de fondo */
+    color:black;/* color de letras */
+}
 .bienvenidos{
-    font-size: 4em;
+    font-size: 5em;
     height: 1em;
     width: 5.3em;
 }
 
 .autor{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .content{
@@ -15,6 +19,9 @@
     justify-content:left;
     width: 100%;
     gap: 20%;
-
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+a{
+    text-decoration: none;
+}
