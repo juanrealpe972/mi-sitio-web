@@ -18,11 +18,3 @@
 
 }
 
-button{
-    width: 8em;
-    position: relative;
-    height: 3.5em;
-    border:1px ridge #212121;
-    background-color:rgb(199, 243, 228);
-    font-weight:bold;
-}
