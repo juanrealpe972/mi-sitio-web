@@ -1,55 +1,51 @@
-*{
-    margin: 0;
-    border: 0;
-}
-
-
-.nombre, .rgb, .hexadecimal{
+.box-colors{
     display: flex;
-
+    align-items: row;
+}
+.box-style{
+    display:flex;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: 0;
+    font-size: 1,6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    align-items: center;
+    padding: 3px;;
+    border: 1px;
+    background-color: black;
 }
 .box-1{
     background-color:beige;
-    width: 300px;
-    height: 300px;
 }
 .box-2{
     background-color:aqua ;
-    width: 300px;
-    height: 300px;
 }
 .box-3{
     background-color:yellow ;
-    width: 300px;
-    height: 300px;
 }
 .box-4{
     background-color: rgb(244,167 ,255);
-    width: 300px;
-    height: 300px;
 }
 .box-5{
     background-color:rgb(244,45 ,12);
-    width: 300px;
-    height: 300px;
 }
 .box-6{
     background-color: rgb(176, 53, 255);
-    width: 300px;
-    height: 300px;
 }
 .box-7{
     background-color:#00ab17 ;
-    width: 300px;
-    height: 300px;
 }
 .box-8{
     background-color: #7fffd4 ;
-    width: 300px;
-    height: 300px;
 }
 .box-9{
 background-color:#fffaaa ;
-width: 300px;
-height: 300px;
 }
