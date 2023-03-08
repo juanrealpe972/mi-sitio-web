@@ -11,7 +11,7 @@
     align-items: center;
 }
 span{
-    color: 0;
+    color: white;
     font-size: 1,6em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,32 +20,32 @@ a{
     align-items: center;
     padding: 3px;;
     border: 1px;
-    background-color: black;
+    background-color: white;
 }
 .box-1{
-    background-color:beige;
+    background-color:black;
 }
 .box-2{
-    background-color:aqua ;
+    background-color:blue ;
 }
 .box-3{
     background-color:yellow ;
 }
 .box-4{
-    background-color: rgb(244,167 ,255);
+    background-color: rgb(246, 0,0);
 }
 .box-5{
-    background-color:rgb(244,45 ,12);
+    background-color:rgb(246,77,0);
 }
 .box-6{
-    background-color: rgb(176, 53, 255);
+    background-color: rgb(52, 255, 0);
 }
 .box-7{
-    background-color:#00ab17 ;
+    background-color:#AF00FF ;
 }
 .box-8{
-    background-color: #7fffd4 ;
+    background-color: #00FAFF ;
 }
 .box-9{
-background-color:#fffaaa ;
+background-color:#FF00E7 ;
 }
