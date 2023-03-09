@@ -1,27 +1,37 @@
-*{
-    background-color:aqua ;/* color de fondo */
-    color:black;/* color de letras */
+body{
+    background-image: url(https://wwwhatsnew.com/wp-content/uploads/2022/03/Estas-son-las-mejores-apps-de-fondos-de-pantalla-4K-y-QHD-para-2022.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
 }
 .bienvenidos{
     font-size: 5em;
     height: 1em;
-    width: 5.3em;
 }
 
 .autor{
     font-size: 2em;
+    text-align: center;
 }
-
 .content{
-    position:relative;
-    display:grid;
-    align-items:normal;
-    justify-content:left;
-    width: 100%;
-    gap: 20%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-a{
     text-decoration: none;
+}
+a{
+    display: block;
+    text-align: center;
+    width: 50px;
+    background-color:  #524a58;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 4px 2px ;
+    color: wheat;
+    text-decoration: none;
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid #524a58;
+    color: #ffffff;
 }
